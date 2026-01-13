@@ -20,8 +20,27 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "xcollat",
-  description: "Xcollat is a crypto-backed lending platform that allows users to deposit their cryptocurrency as collateral and receive loans in USDT stablecoin.",
+  title: "XCollat",
+  description: "XCollat is a crypto-backed lending platform that allows users to deposit their cryptocurrency as collateral and receive loans in USDT stablecoin.",
+  icons: {
+    icon: '/favicon.jpg', // you can also use .png or .ico
+  },
+  openGraph: {
+    title: "XCollat",
+    description: "XCollat is a crypto-backed lending platform that allows users to deposit their cryptocurrency as collateral and receive loans in USDT stablecoin.",
+    url: "https://xcollat.vercel.app/", // replace with your live URL
+    siteName: "XCollat",
+    images: [
+      {
+        url: "/favicon.jpg", // the same icon or a social preview image
+        width: 800,
+        height: 600,
+      }
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  themeColor: "#0d6efd", // blue theme for tab highlight on mobile
 };
 
 export default function RootLayout({
