@@ -52,17 +52,11 @@ export default function RootLayout({
     <html lang="en">
 
 <head>
-        {/* Favicon */}
-        <link rel="icon" href="/favicon.jpg" />
-        <link rel="shortcut icon" href="/favicon.jpg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+</head>
 
-        {/* Optional: theme color for mobile browser */}
-        <meta name="theme-color" content="#0d6efd" />
-
-        {/* Optional: social preview */}
-        <meta property="og:image" content="/favicon.jpg" />
-        <meta name="twitter:card" content="summary_large_image" />
-      </head>
       
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${iceland.variable} antialiased overflow-x-hidden`}
