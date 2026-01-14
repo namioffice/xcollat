@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Iceland } from "next/font/google";
 import "./globals.css";
 import { ToastContainer } from 'react-toastify';
-
+import TawkTo from "@/components/TawkTo";
 export const iceland = Iceland({
   subsets: ["latin"],
   weight: "400",
@@ -72,6 +72,7 @@ export default function RootLayout({
           newestOnTop
           theme="colored"
         />
+        <TawkTo/>
       </body>
     </html>
   );
