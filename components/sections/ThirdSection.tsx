@@ -15,13 +15,13 @@ const iceland = Iceland({
 const reasons = [
   {
     number: "01",
-    title: "Secure coin Collateral",
-    text: "Your coin stays locked safely as collateral. We never sell or rehypothecate your assets.",
+    title: "Secure asset Collateral",
+    text: "Your asset stays locked safely as collateral. We never sell or rehypothecate your assets.",
   },
   {
     number: "02",
     title: "Instant Stablecoin Access",
-    text: "Receive USDT or USDC directly to your wallet within minutes after locking your coin.",
+    text: "Receive USDT or USDC directly to your wallet within minutes after locking your asset.",
   },
   {
     number: "03",
