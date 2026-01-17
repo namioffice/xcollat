@@ -12,7 +12,7 @@ import {
   const features = [
     {
       title: "Non-Custodial Collateral",
-      text: "Your coins remains securely locked and never sold or reused.",
+      text: "Your assets remains securely locked and never sold or reused.",
       icon: FiLock,
     },
     {
