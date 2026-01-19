@@ -27,9 +27,9 @@ export default function AboutXcollat() {
 
           <p className="text-gray-400 max-w-3xl mx-auto text-base md:text-lg leading-relaxed">
             Xcollat is a decentralized crypto-backed lending platform that allows
-            XRP holders to unlock liquidity without selling their assets. We
+            assets  holders to unlock liquidity without selling their assets. We
             provide fast, transparent, and secure access to stablecoins using
-            XRP as collateral.
+            assets  as collateral.
           </p>
         </div>
 
@@ -43,11 +43,11 @@ export default function AboutXcollat() {
             <p className="text-gray-300 leading-relaxed">
               Many crypto holders are forced to sell their assets when they need
               cash. Xcollat solves this by enabling users to borrow stablecoins
-              while keeping full ownership of their XRP.
+              while keeping full ownership of their assets .
             </p>
 
             <p className="text-gray-300 leading-relaxed">
-              Users lock XRP as collateral and instantly receive USDT or USDC.
+              Users lock assets  as collateral and instantly receive USDT or USDC.
               Once the loan is repaid, the collateral is fully unlocked. No
               hidden fees, no compounding interest, and no surprise liquidations.
             </p>
@@ -73,8 +73,8 @@ export default function AboutXcollat() {
             {[
               {
                 step: "01",
-                title: "Lock XRP as Collateral",
-                text: "Deposit your XRP into a secure smart contract. Your assets are never sold or reused.",
+                title: "Lock assets  as Collateral",
+                text: "Deposit your assets  into a secure smart contract. Your assets are never sold or reused.",
               },
               {
                 step: "02",
@@ -84,7 +84,7 @@ export default function AboutXcollat() {
               {
                 step: "03",
                 title: "Repay & Unlock",
-                text: "Repay the fixed interest amount and unlock your XRP instantly.",
+                text: "Repay the fixed interest amount and unlock your assets  instantly.",
               },
             ].map((item) => (
               <div
@@ -112,7 +112,7 @@ export default function AboutXcollat() {
               <li>• Fixed interest no APR or compounding</li>
               <li>• Non-custodial collateral structure</li>
               <li>• Transparent liquidation thresholds</li>
-              <li>• Designed specifically for XRP holders</li>
+              <li>• Designed specifically for assets  holders</li>
               <li>• Built for global, borderless access</li>
             </ul>
           </div>
@@ -130,7 +130,7 @@ export default function AboutXcollat() {
             <div className="bg-[#111413] border border-white/10 rounded-2xl p-6">
               <h3 className="font-semibold text-lg">Built for the Future</h3>
               <p className="text-gray-400 text-sm mt-2">
-                Our long-term vision is to become the leading XRP-backed
+                Our long-term vision is to become the leading assets -backed
                 liquidity layer for decentralized finance, payments, and
                 real-world utility.
               </p>
