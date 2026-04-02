@@ -6,6 +6,7 @@ import Logo from "../nav/Logo";
 import {
   FaGithub,
   FaDiscord,
+  FaFacebook
  
 } from "react-icons/fa6";
 
@@ -27,7 +28,7 @@ export default function Footer() {
             {/* SOCIALS */}
             <div className="flex gap-4 pt-2">
               {[
-                { icon: FaDiscord, href: "#" },
+                { icon: FaFacebook, href: "https://www.facebook.com/share/17B2tDJjNh/?mibextid=wwXIfr" },
                 { icon: FaGithub, href: "#" },
               ].map((item, i) => {
                 const Icon = item.icon;
